@@ -324,7 +324,6 @@ body:has(.floppy_dialog[open]) {
   .header {
     margin-top: 27vw;
     margin-bottom: 28vw;
-    block-size: 325px;
   }
 
   .article_info {
@@ -346,7 +345,6 @@ body:has(.floppy_dialog[open]) {
     flex-direction: column;
     width: 312px;
     height: 84px;
-    margin: -1px;
     gap: 4px;
   }
 
@@ -359,4 +357,12 @@ body:has(.floppy_dialog[open]) {
     margin-right: 2px;
     margin-bottom: 4px;
   }
+}
+
+.like-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
